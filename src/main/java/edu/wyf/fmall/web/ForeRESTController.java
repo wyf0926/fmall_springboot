@@ -1,8 +1,5 @@
 package edu.wyf.fmall.web;
 
-import com.how2java.tmall.comparator.*;
-import com.how2java.tmall.pojo.*;
-import com.how2java.tmall.service.*;
 import edu.wyf.fmall.util.Result;
 import edu.wyf.fmall.comparator.*;
 import edu.wyf.fmall.pojo.*;
