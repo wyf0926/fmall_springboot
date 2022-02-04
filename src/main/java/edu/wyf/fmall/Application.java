@@ -8,8 +8,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import edu.wyf.fmall.util.PortUtil;
 @SpringBootApplication
 @EnableCaching
-@EnableElasticsearchRepositories(basePackages = "com.how2java.tmall.es")
-@EnableJpaRepositories(basePackages = {"com.how2java.tmall.dao", "com.how2java.tmall.pojo"})
+@EnableElasticsearchRepositories(basePackages = "edu.wyf.fmall.es")
+@EnableJpaRepositories(basePackages = {"edu.wyf.fmall.dao", "edu.wyf.fmall.pojo"})
 public class Application {
     static {
         PortUtil.checkPort(6379,"Redis 服务端",true);
